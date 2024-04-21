@@ -11,7 +11,8 @@ jobs:
       - name: Print something
         run: echo "Hello World!"
       - name: Finally do
+        run: |
+            echo "First output"
+            echo "Second output"
+      - name: Finally do
         run: echo "Say bye!"
-        
-
-      
