@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Print something
         run: echo "Hello World!"
-      - name: Finally do
+      - name: Next do something
         run: |
             echo "First output"
             echo "Second output"
