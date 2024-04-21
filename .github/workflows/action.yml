@@ -1,0 +1,17 @@
+name: Test Workflow
+
+# triggers
+on: workflow_dispatch
+
+# jobs
+jobs: 
+  my-first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print something
+        run: echo "Hello World!"
+      - name: Finally do
+        run: echo "Say bye!"
+        
+
+      
